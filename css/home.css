@@ -1,0 +1,192 @@
+/* (* means for whole page) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for header tag */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    font-size: 20px;
+}
+
+
+/* for img tag */
+
+img {
+    margin: 12px 120px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 500px;
+}
+
+
+/* for class nav */
+
+.nav {
+    margin: 50px 150px;
+}
+
+
+/* for li inside class nav */
+
+.nav li {
+    display: inline;
+    padding: 20px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+
+/* hover effect for li inside class nav */
+
+.nav li:hover {
+    background-color: orangered;
+}
+
+
+/* for a tag in li inside class nav */
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* hover effect for a tag in li inside class nav */
+
+.nav li a:hover {
+    color: white;
+}
+
+
+/* for class home */
+
+.home {
+    background-image: url('../images/home.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* for class text */
+
+.text {
+    padding: 50px;
+    margin-left: 200px;
+    padding: 120px 150px;
+    font-size: 29px;
+    height: 100px;
+    width: 290px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* for span tag inside class text */
+
+.text span {
+    font-size: 40px;
+    color: rgb(47, 130, 240);
+}
+
+
+/* for class btn */
+
+.btn {
+    padding: 8px 22px;
+    border: none;
+    background-color: navajowhite;
+    border-radius: 150px;
+}
+
+
+/* for a tag inside class btn  */
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* hover effect for class btn */
+
+.btn:hover {
+    background-color: orangered;
+}
+
+
+/* hover effect for a tag inside class btn */
+
+.btn a:hover {
+    color: white;
+}
+
+
+/* for class content */
+
+.content {
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+/* for li inside class content */
+
+.content li {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* for footer tag */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* margin-top: 60%; */
+}
+
+
+/* for class fa */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* hover effect for class fa */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook,instagram */
+
+.fa-facebook,
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter,linkedin */
+
+.fa-twitter,
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
